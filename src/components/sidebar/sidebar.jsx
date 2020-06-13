@@ -5,7 +5,6 @@ import Prayers from '../prayers/prayers';
 
 const Sidebar = ({prayersTime, date}) => {
     return (
-
         <div className="gr-sidebar">
             
             <Date date={date} />
