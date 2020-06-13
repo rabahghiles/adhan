@@ -1,0 +1,104 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gr-arabic-name,
+.gr-arabic-name-2,
+.gr-arabic-date {
+    font-family: 'Reem Kufi', sans-serif; 
+}
+
+.gr-body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 70px 1fr;
+}
+
+/* Header container */
+header {
+    background: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 10px #ccc;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    line-height: 70px;
+    z-index: 2;
+}
+header h1 {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    color: #555;
+}
+
+/* Prayers container */
+.gr-sidebar {
+    background: #fff;
+    box-shadow: 1px 1px 5px #ccc;
+    padding: 40px 10px;
+    color: #505050;
+}
+.gr-current-day {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.gr-arabic-date {
+    display: flex;
+}
+.gr-arabic-date div {
+    margin-left: 3px;
+}
+.gr-current-prayer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.gr-prayer-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gr-latin-name {
+    font-size: 32px;
+}
+.gr-prayer-time {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+.gr-prayer-time-left {
+    font-size: 32px;
+}
+.gr-prayer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+.gr-prayer-name-2 {
+    display: flex;
+    flex-direction: column;
+}
+.gr-latin-name-2 {}
+.gr-arabic-name-2 {}
+.gr-prayer-time-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+/* Map container */
